@@ -317,14 +317,14 @@ Grocery List
 .clear-btn {
   text-transform: capitalize;
   width: 10rem;
-  height: 1.5rem;
+  height: 2rem;
   display: grid;
   align-items: center;
   background: transparent;
   border-color: transparent;
   color: var(--clr-red-light);
   margin: 0 auto;
-  font-size: 0.85rem;
+  font-size: 1rem;
   letter-spacing: var(--spacing);
   cursor: pointer;
   transition: var(--transition);
