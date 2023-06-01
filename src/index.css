@@ -93,6 +93,8 @@ h4 {
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 800px) {
@@ -219,13 +221,13 @@ Grocery List
 }
 
 .grocery {
-  padding: 0.25rem;
+  padding: 0.4rem;
   padding-left: 1rem;
   background: var(--clr-grey-10);
   border-top-left-radius: var(--radius);
   border-bottom-left-radius: var(--radius);
   border-color: transparent;
-  font-size: 1rem;
+  font-size: 1.1rem;
   flex: 1 0 auto;
   color: var(--clr-grey-5);
 }
@@ -241,15 +243,15 @@ Grocery List
   flex: 0 0 5rem;
   display: grid;
   align-items: center;
-  padding: 0.25rem;
+  padding: 0.4rem;
   text-transform: capitalize;
-  letter-spacing: 2px;
+  letter-spacing: var(--spacing);
   border-top-right-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
   cursor: pointer;
   content: var(--clr-primary-5);
   transition: var(--transition);
-  font-size: 0.85rem;
+  font-size: 1.1rem;
 }
 
 .submit-btn:hover {
@@ -293,7 +295,7 @@ Grocery List
   background: transparent;
   border-color: transparent;
   cursor: pointer;
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin: 0 0.15rem;
   transition: var(--transition);
 }
@@ -320,11 +322,12 @@ Grocery List
   height: 2rem;
   display: grid;
   align-items: center;
-  background: transparent;
+  background: var(--clr-red-dark);
   border-color: transparent;
-  color: var(--clr-red-light);
+  border-radius: var(--radius);
+  color: var(--clr-white);
   margin: 0 auto;
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: var(--spacing);
   cursor: pointer;
   transition: var(--transition);
@@ -332,5 +335,5 @@ Grocery List
 }
 
 .clear-btn:hover {
-  color: var(--clr-red-dark);
+  color: var(--clr-black);
 }
